@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family:  Helvetica,Arial, sans-serif;
+}
+
+body > div {
+    margin: auto;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    padding:12px 48px;
+    border-radius: 50px;
+    min-width: 140px;
+    transition: opacity .2s ease;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn + .btn {
+    margin-left: 16px;
+}
+
+.btn--disable {
+    opacity: 0.5 !important;
+    cursor: initial;
+}
+
+.btn--size-l {
+    padding:12px 48px;
+}
+
+.btn--size-m {
+    padding:8px 36px;
+}
+
+.btn--size-s {
+    padding:5px 28px;
+
+}
+
+
+.btn--success {
+    background-color: #71be35;
+}
+.btn--warn {
+    background-color: #feb705;
+}
+.btn--danger {
+    background-color: #ff613d;
+}
