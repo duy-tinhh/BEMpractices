@@ -84,21 +84,17 @@ body > div {
     border-left: 4px solid;
     box-shadow: 0 5px 8px rgba(0, 0 , 0, 0.08);
     transition: all linear .3s;
-    
 }
 
 @keyframes slideInLeft {
     from {
         opacity: 0;
         transform: translateX(calc(100% + 32px));
-
     }
     to {
         opacity: 1;
         transform: translateX(0);
-
     }
-    
 }
 
 @keyframes fadeOut {
